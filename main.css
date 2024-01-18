@@ -1,0 +1,204 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: roboto, sans-serif;
+    }
+
+html {
+    overflow-x: hidden;
+}
+
+header {
+    padding: 10px;
+    background-color: rgb(28, 44, 187);
+    color: #fff;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container{
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.menuSandwich {
+    width: 32px;
+}
+
+.menuSandwich span {
+    width: 100%;
+    height: 2px;
+    background-color: #fff;
+    display: block;
+    margin-bottom: 2px;
+    cursor: pointer;
+}
+
+#menuqueaparece{
+    background-color: rgb(127, 69, 236);
+    padding: 10px;
+    display: none;
+    position: sticky;
+    top: 58px;
+    left: 0px;
+    z-index: 1;
+}
+
+#menuqueaparece li{
+    list-style: none;
+    margin-right: 16px;
+}
+
+#menuqueaparece .container{
+    display: flex;
+}
+
+#menuqueaparece li a {
+    color: #fff;
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+#primeiraimagem {
+    margin: 32px 0;
+}
+
+#primeiraimagem .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+#primeiraimagem img {
+    height: 320px;
+    margin-right: 20px;
+    font-size: 30px;
+}
+
+h2{
+    margin-bottom: 24px;
+    text-transform: uppercase;
+}
+
+#primeiraimagem p{
+    text-align: justify;
+}
+
+#produtos li,
+#promocoes li{
+    list-style: none;
+    display: block;
+    max-width: 30%;
+}
+
+#produtos ul,
+#promocoes ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#produtos img,
+#promocoes img{
+    width: 100%;
+}
+
+#produtos .meio,
+#promocoes .meio {
+    margin: 0 5%;
+}
+
+#produtos h3,
+#promocoes h3 {
+    margin-top: 15px;
+}
+
+#produtos p,
+#promocoes p {
+    margin: 15px 0;
+}
+
+#produtos strong,
+#promocoes strong{
+    font-size: 20px;
+}
+
+#promocoes,
+#contato{
+    margin-top: 100px;
+}
+
+#promocoes del {
+    color: #ccc;
+    font-size: 16px;
+}
+
+
+button {
+    cursor: pointer;
+    padding: 10px;
+    width: 100%;
+    background-color: rgb(42, 161, 38);
+    display: block;
+    margin: 15px 0;
+    color: #fff;
+    border: none;
+    font-size: 20px;
+    border-radius: 40px;
+    font-style: italic;
+    font-weight: bolder;
+}
+
+#contato form label{
+    display: block;
+    font-weight: bold;
+}
+
+#contato form input{
+    width: 300px;
+    height: 20px;
+    margin-bottom: 10px;
+}
+
+textarea {
+    resize: none;
+    height: 120px;
+    width: 300px;
+}
+
+#contato button {
+    width: 150px;
+    padding: 5px;
+}
+
+footer {
+    padding: 8px;
+    background-color: rgb(28, 44, 187);
+    color: #fff;
+}
+
+footer .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+}
+
+footer li {
+    list-style: none;
+}
+
+footer .container img {
+    height: 30px;
+    cursor: pointer;
+}
